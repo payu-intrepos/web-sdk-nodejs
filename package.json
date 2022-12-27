@@ -1,0 +1,24 @@
+{
+  "name": "payu-sdk-test",
+  "version": "1.0.3",
+  "description": "PayU sdk for NodeJS",
+  "main": "index.js",
+  "keywords": [
+    "PayU sdk for NodeJS",
+    "PayU Nodejs"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "test-silent": "jest --silent",
+    "start": "node index.js"
+  },
+  "author": "kshitij.tomar@payu.in",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "collectCoverage": true,
+"testResultsProcessor": "jest-sonar-reporter"
+}
