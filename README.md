@@ -25,7 +25,7 @@ To get started with PayU, visit our [Developer Guide](https://devguide.payu.in/)
 ### npm
 
 ```shell
-npm install payu --save
+WIP
 ```
 
 
