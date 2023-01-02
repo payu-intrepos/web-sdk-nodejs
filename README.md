@@ -4,7 +4,7 @@ The PayU SDK for NodeJS enables you to easily work with APIs of PayU by easily i
 With our SDK, you do not need to worry about low level details for doing API integration and with few lines of code and a function calling, it can be done within few minutes.
 
 ## Features Supported
-Following features are supported in the Payment link JavaScript SDK:
+Following features are supported in the PayU NodeJS web SDK:
  - Create Payment form.
  - Verify transactions, check the transaction status, transaction details, or discount rate for a transaction
  - Initiated refunds, cancel refund, check refund status.
@@ -13,7 +13,7 @@ Following features are supported in the Payment link JavaScript SDK:
  - Check the customer’s eligibility for EMI and get the EMI amount according to interest 
  - Pay by link genration
 
-To get started with PayU, visit our [Developer Guide](https://devguide.payu.in/)
+To get started with PayU, visit our [Developer Guide](https://devguide.payu.in/low-code-web-sdk/getting-started-low-code-web-sdk/)
 
 # Table of Contents
  1. [Installation](#installation)
@@ -34,7 +34,7 @@ npm install payu-websdk
 Please follow the [installation](#installation) instruction and execute the following JS code for creating the instance of PayU Object:
 
 ```javascript
-const PayU = require("payu");
+const PayU = require("payu-websdk");
 
 const payuClient = new PayU({
   key: <YOUR_MERCHANT_KEY>,
